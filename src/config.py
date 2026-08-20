@@ -1,0 +1,15 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+MINIO_ENDPOINT = os.getenv('MINIO_ENDPOINT')
+MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY')
+MINIO_SECRET_KEY = os.getenv('MINIO_SECRET_KEY')
+MINIO_BUCKET = os.getenv('MINIO_BUCKET')
+OPENSKY_API_URL = os.getenv('OPENSKY_API_URL')
+OPENSKY_TOKEN_URL = os.getenv('OPENSKY_TOKEN_URL')
+OPENSKY_CLIENT_ID = os.getenv('OPENSKY_CLIENT_ID')
+OPENSKY_CLIENT_SECRET = os.getenv('OPENSKY_CLIENT_SECRET')
+
+
